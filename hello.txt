@@ -1,0 +1,11 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main () {
+    //write in file
+    ofstream obj("hello.txt");
+    obj << "hello i'm input text from program";
+    obj.close();
+    return 0;
+}
