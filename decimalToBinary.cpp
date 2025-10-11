@@ -12,6 +12,5 @@ int main () {
         num /= 2;
     }
     cout << bn;
-
     return 0;
 }
